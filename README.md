@@ -4,8 +4,7 @@
 
 <p align="center">
   <a href="mailto:sunilkumarssk.2021@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/sunilsk17/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
-  <a href="https://github.com/sunilsk17"><img src="https://img.shields.io/github/followers/sunilsk17?label=Follow&style=for-the-badge&logo=github&logoColor=white&color=181717" /></a>
+  <a href="https://www.linkedin.com/in/sunilsk17/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
 ---
@@ -42,8 +41,6 @@
 ### Projects
 
 **[LatentTokenGuard](https://github.com/sunilsk17/LatentTokenGuard)** — Hallucination detection in LVLMs without touching the decoding loop. Measures cosine similarity between generated token embeddings and visual patch representations in latent space. Single-pass, post-hoc, no output distortion.
-
-**[mlx-graphs](https://github.com/sunilsk17/mlx-graphs)** — GNN library on Apple's MLX framework. All ops run natively on Apple Silicon unified memory — up to 10× faster than CPU-bound PyG equivalents. Full docs, Discord community, test coverage.
 
 **[mlx-spectral-gnn](https://github.com/sunilsk17/mlx-spectral-gnn)** — Hardware-aware spectral graph sparsification. Prunes structurally redundant edges using spectral distances from the graph Laplacian instead of random DropEdge. Zero-copy CPU↔GPU via unified memory.
 
