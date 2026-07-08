@@ -56,16 +56,3 @@
 
 **[Social\_Media\_Sentiment\_Analysis](https://github.com/sunilsk17/Social_Media_Sentiment_Analysis)** — 82% accuracy on Twitter Sentiment140 with Bagging + SVM. Beats logistic regression and naive Bayes.
 
----
-
-### Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sunilsk17&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunilsk17&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="170" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=sunilsk17&theme=tokyonight&hide_border=true" height="150" />
-</p>
