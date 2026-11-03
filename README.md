@@ -1,6 +1,6 @@
 <h1 align="center">Sunil Kumar S</h1>
 
-<p align="center">SDE @ Walmart Global Tech &nbsp;·&nbsp; ML research &nbsp;·&nbsp; BE CS</p>
+<p align="center">Software Engineer II @ Walmart Global Tech &nbsp;·&nbsp; ML research &nbsp;·&nbsp; BE CSE, CEG</p>
 
 <p align="center">
   <a href="mailto:sunilkumarssk.2021@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
@@ -9,10 +9,10 @@
 
 ---
 
-- 🏢 &nbsp;SDE @ **Walmart Global Tech** — interned here, then joined full-time
-- 🎓 &nbsp;BE Computer Science — graduated
-- 🔬 &nbsp;Hallucination detection in VLMs, GNNs on Apple Silicon, streaming algorithm theory
-- 🌱 &nbsp;Currently deep in `MLX` and edge ML deployment
+- 🏢 &nbsp;Software Engineer II @ **Walmart Global Tech** — payments settlement (25M+ transactions/day) and Tier-0 payments reliability
+- 🎓 &nbsp;BE Computer Science and Engineering, College of Engineering Guindy (CGPA 9.21/10)
+- 🔬 &nbsp;Research: trustworthy AI (hallucination detection in VLMs/LLMs), efficient & edge ML, streaming & learning-augmented algorithms
+- 🌐 &nbsp;[Portfolio](https://sunilsk17.github.io) · [Google Scholar](https://scholar.google.com/citations?user=nttuj54AAAAJ&hl=en)
 
 ---
 
@@ -44,11 +44,11 @@
 
 ### Projects
 
-**[LatentTokenGuard](https://github.com/sunilsk17/LatentTokenGuard)** — Hallucination detection in LVLMs without touching the decoding loop. Measures cosine similarity between generated token embeddings and visual patch representations in latent space. Single-pass, post-hoc, no output distortion.
+**[LatentTokenGuard](https://github.com/sunilsk17/LatentTokenGuard)** — Training-free detection of hallucinated objects in VLM captions from the model's own hidden states (top-k cosine between object and image tokens), with no extra forward pass. Found that caption position alone predicts hallucination (up to 84 AUROC) and built a position-controlled benchmark on LLaVA-1.5-7B/13B and Qwen2.5-VL-7B: 79.7 / 78.7 / 82.8 AUROC within position bins, the best single training-free score on all three, against 6 baselines incl. GLSim (NeurIPS 2025).
 
-**[mlx-spectral-gnn](https://github.com/sunilsk17/mlx-spectral-gnn)** — Hardware-aware spectral graph sparsification. Prunes structurally redundant edges using spectral distances from the graph Laplacian instead of random DropEdge. Zero-copy CPU↔GPU via unified memory.
+**[mlx-spectral-gnn](https://github.com/sunilsk17/mlx-spectral-gnn)** — Hardware-aware spectral graph sparsification. Prunes structurally redundant edges using spectral distances from the graph Laplacian instead of random DropEdge. Zero-copy CPU↔GPU via unified memory. Keeps accuracy at up to 30% sparsity with lower variance than stochastic baselines.
 
-**[annealed-ewc-edge-cl](https://github.com/sunilsk17/annealed-ewc-edge-cl)** — Continual learning on edge hardware (MobileNetV3, ResNet-18). EWC λ-sweep across {0–5000}, annealed harmonic decay schedule, LwF distillation baseline. Benchmarked on sequential CIFAR-10 drift and class-incremental CIFAR-100.
+**[annealed-ewc-edge-cl](https://github.com/sunilsk17/annealed-ewc-edge-cl)** — Annealed EWC: a harmonic-decay regularization schedule for sub-1M-parameter edge models, where standard EWC fails. 8.4% higher accuracy and 43.2% less forgetting on MobileNetV3-Small (CIFAR-10/100). Accepted at ACS/IEEE AICCSA 2026.
 
 **[Learning-Augmented-MAXCUT-Streaming](https://github.com/sunilsk17/Learning-Augmented-MAXCUT-Streaming)** — Three learning-augmented streaming MAX-CUT algorithms: SAHO (two-tier hub/peripheral ML), ARSP (confidence ensemble + dynamic threshold), TCAO (community-prior). Tested on Enron mail graphs and Ottawa road networks.
 
@@ -56,7 +56,7 @@
 
 **[GreenSketch](https://github.com/sunilsk17/GreenSketch)** — Energy-aware HLL variants (LHLL, THLL, AP-HLL) for edge streams. 18.6% energy reduction on Wikipedia pageviews at <1% accuracy loss.
 
-**[Phishing-Detection](https://github.com/sunilsk17/Phishing-Detection)** — URL phishing classifier using VAE augmentation + ResNeXt-GRU on handcrafted URL features.
+**[Phishing-Detection](https://github.com/sunilsk17/Phishing-Detection)** — URL phishing classifier: a Conditional VAE for minority-class augmentation and 48→16 feature compression, feeding a ResNeXt-GRU. 91.44% validation accuracy.
 
 **[Social\_Media\_Sentiment\_Analysis](https://github.com/sunilsk17/Social_Media_Sentiment_Analysis)** — 82% accuracy on Twitter Sentiment140 with Bagging + SVM. Beats logistic regression and naive Bayes.
 
