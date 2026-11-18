@@ -9,7 +9,7 @@
 
 ---
 
-- 🏢 &nbsp;Software Engineer II @ **Walmart Global Tech** — payments settlement (25M+ transactions/day) and Tier-0 payments reliability
+- 🏢 &nbsp;Software Engineer II @ **Walmart Global Tech** 
 - 🎓 &nbsp;BE Computer Science and Engineering, College of Engineering Guindy (CGPA 9.21/10)
 - 🔬 &nbsp;Research: trustworthy AI (hallucination detection in VLMs/LLMs), efficient & edge ML, streaming & learning-augmented algorithms
 - 🌐 &nbsp;[Portfolio](https://sunilsk17.github.io) · [Google Scholar](https://scholar.google.com/citations?user=nttuj54AAAAJ&hl=en)
