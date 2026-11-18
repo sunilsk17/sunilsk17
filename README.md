@@ -10,9 +10,10 @@
 ---
 
 - 🏢 &nbsp;Software Engineer II @ **Walmart Global Tech** 
-- 🎓 &nbsp;BE Computer Science and Engineering, College of Engineering Guindy (CGPA 9.21/10)
-- 🔬 &nbsp;Research: trustworthy AI (hallucination detection in VLMs/LLMs), efficient & edge ML, streaming & learning-augmented algorithms
-- 🌐 &nbsp;[Portfolio](https://sunilsk17.github.io) · [Google Scholar](https://scholar.google.com/citations?user=nttuj54AAAAJ&hl=en)
+- 🎓 &nbsp;BE Computer Science and Engineering, College of Engineering Guindy, Anna University (CGPA 9.21/10)
+- 🔬 &nbsp;Research: reliable and efficient AI systems — hallucination detection in VLMs/LLMs, continual learning on small models, streaming & learning-augmented algorithms
+- 🌐 &nbsp;[Portfolio](https://sunilsk17.github.io) · [CV](https://sunilsk17.github.io/cv.pdf) · [Google Scholar](https://scholar.google.com/citations?user=nttuj54AAAAJ&hl=en)
+- ⛰️ &nbsp;Off hours: monsoon treks in the Western Ghats (Kudremukh, Kodachadri)
 
 ---
 
@@ -42,13 +43,24 @@
 
 ---
 
+### Selected publications
+
+- **Catastrophic Rigidity in Capacity-Constrained Edge Continual Learning with Annealed EWC** — ACS/IEEE AICCSA 2026, University of Sharjah, UAE (accepted)
+- **[Stream-Order Sensitivity in Distinct Element Estimation: HyperLogLog and the Shielding Effect](https://doi.org/10.1177/1088467X261485688)** — *Intelligent Data Analysis*, 2026
+- **[Beyond Uniformity in Combinatorial Streams: Sparsity-Adaptive and Adversarially Robust Oracles for MAX-CUT Approximation](https://doi.org/10.1109/iccvbic71195.2026.11688312)** — ICCVBIC 2026
+- **[Hardware-Aware Spectral Sparsification for Efficient GNN Training under Memory Constraints](https://doi.org/10.1109/iccnct68477.2026.11590409)** — ICCNCT 2026
+
+Full list on the [portfolio](https://sunilsk17.github.io/#publications) and [Google Scholar](https://scholar.google.com/citations?user=nttuj54AAAAJ&hl=en).
+
+---
+
 ### Projects
 
 **[LatentTokenGuard](https://github.com/sunilsk17/LatentTokenGuard)** — Training-free detection of hallucinated objects in VLM captions from the model's own hidden states (top-k cosine between object and image tokens), with no extra forward pass. Found that caption position alone predicts hallucination (up to 84 AUROC) and built a position-controlled benchmark on LLaVA-1.5-7B/13B and Qwen2.5-VL-7B: 79.7 / 78.7 / 82.8 AUROC within position bins, the best single training-free score on all three, against 6 baselines incl. GLSim (NeurIPS 2025).
 
-**[mlx-spectral-gnn](https://github.com/sunilsk17/mlx-spectral-gnn)** — Hardware-aware spectral graph sparsification. Prunes structurally redundant edges using spectral distances from the graph Laplacian instead of random DropEdge. Zero-copy CPU↔GPU via unified memory. Keeps accuracy at up to 30% sparsity with lower variance than stochastic baselines.
+**[mlx-spectral-gnn](https://github.com/sunilsk17/mlx-spectral-gnn)** — Hardware-aware spectral graph sparsification. Prunes structurally redundant edges using spectral distances from the graph Laplacian instead of random DropEdge. Zero-copy CPU↔GPU via unified memory. Stays within 2–3 points of the full graph at 30% sparsity on Cora and Citeseer, with lower variance than DropEdge.
 
-**[annealed-ewc-edge-cl](https://github.com/sunilsk17/annealed-ewc-edge-cl)** — Annealed EWC: a harmonic-decay regularization schedule for sub-1M-parameter edge models, where standard EWC fails. 8.4% higher accuracy and 43.2% less forgetting on MobileNetV3-Small (CIFAR-10/100). Accepted at ACS/IEEE AICCSA 2026.
+**[annealed-ewc-edge-cl](https://github.com/sunilsk17/annealed-ewc-edge-cl)** — Annealed EWC: a harmonic-decay regularization schedule for sub-1M-parameter edge models, where standard EWC fails. 8.4% higher accuracy and 43.2% less forgetting on MobileNetV3-Small (CIFAR-10/100). Accepted at ACS/IEEE AICCSA 2026 (University of Sharjah, UAE).
 
 **[Learning-Augmented-MAXCUT-Streaming](https://github.com/sunilsk17/Learning-Augmented-MAXCUT-Streaming)** — Three learning-augmented streaming MAX-CUT algorithms: SAHO (two-tier hub/peripheral ML), ARSP (confidence ensemble + dynamic threshold), TCAO (community-prior). Tested on Enron mail graphs and Ottawa road networks.
 
